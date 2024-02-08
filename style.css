@@ -69,7 +69,7 @@ nav ul{
     justify-content: center;
     align-items: center;
     width: 50%;
-    height: 200px
+    height: 225px
 }
 /** Services section **/
 .services{
@@ -90,8 +90,8 @@ nav ul{
     list-style: none;
     justify-content: center;
     align-items: center;
-    padding: 20px 15%;
-    gap: 30px;
+    padding: 20px 10%;
+    gap: 20px;
 }
 .image-box{
     width: 170px;
@@ -108,18 +108,26 @@ nav ul{
 }
 li p{
     font-size: 18px;
+    text-align: center;
 }
 .quote-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background: #E5E7EB;
-    padding: 10% 15%;
+    padding: 10% 0;
     font-size: 36px;
     color: #1F2937;
     font-style: light italic;
 
 }
+.quote-section{
+    text-align: left;
+}
 .author{
     font-weight: 600;
-    margin-left: 50%;
+    margin-left: 38%;
 }
 
 /** Call to action section **/
